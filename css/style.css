@@ -1,0 +1,157 @@
+/* 배경 이미지 */
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;    /*-1: 텍스트가 위로, 1: 텍스트가 아래로*/ 
+    opacity:80%;
+}
+
+/* 날씨 */
+#weather {
+    color: white;
+    text-align: end;
+    margin-right: 10px;
+    white-space: pre-line;
+}
+
+/* 시계 */
+#clock {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    margin-top: 10%;
+    margin-bottom: 10px;
+}
+
+/* 이름 입력 */
+.hidden {
+    display: none;
+}
+#nameInput {
+    text-align: center;
+    margin: 0;
+}
+#input1 {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 5px solid white;
+    color: white;
+    text-align: center;
+}
+#input1::placeholder {
+    color: white;
+}
+#input1:focus {
+    outline: none;  /* input 클릭 시 아웃라인 없애기*/
+}
+#input2 {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 5px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+#input2:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* 이름 */
+#greeting {
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* 투두 작성 */
+#todoList {
+    text-align: center;
+    margin-top: 10px;
+}
+#todo-form input {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 5px solid white;
+    color: white;
+    text-align: center;
+}
+#todo-form input::placeholder {
+    color: white;
+}
+#todo-form input:focus {
+    outline: none;  /* input 클릭 시 아웃라인 없애기*/
+}
+
+/* 투두 */
+#todo-list {
+    width: 500px;
+    height: 10vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 20px auto 0 auto;
+    list-style-type: none;  /* 리스트 앞에 점 없애기 */
+    text-align: start;
+
+    text-overflow: ellipsis;
+}
+#todo-list::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+#todo-list::-webkit-scrollbar-thumb { /* 스크롤바 막대 */ 
+    height: 10px; /* 스크롤바의 길이 */
+    background: rgba(255, 255, 255, 0.5); /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+#todo-list::-webkit-scrollbar-track { /* 스크롤바 뒷 배경 */
+    background: rgba(0, 0, 0, 0);  /*스크롤바 뒷 배경 색상*/
+}
+#todo-list li{
+    margin: 3px 0;
+    font-size: 20px;
+    color: white;
+
+}
+#todo-list button {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(65, 65, 65, 0.4);
+    border-radius: 10px;
+    border: 3px solid rgb(51, 51, 51);
+    /* border: none; */
+    font-size: 18px;
+    padding: 0%;
+    margin-right: 10px;
+}
+#todo-list button:hover {
+    cursor: pointer;
+    background-color: rgba(65, 65, 65, 0.8);
+}
+
+/* 명언 */
+#quote {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    white-space: pre-line;
+}
