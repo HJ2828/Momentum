@@ -3,7 +3,7 @@
 
 ### 소개
 
-- Momentum 크롬 확장 앱 클론 코딩
+- Momentum 크롬 확장 웹 클론 코딩
 - 제작 기간: 2023.08.09 ~ 2023.08.24
 - 깃허브: https://github.com/HJ2828/Momentum
 - 링크: **https://hj2828.github.io/Momentum/**
