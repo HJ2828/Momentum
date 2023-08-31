@@ -11,5 +11,5 @@
 ### 사용 기술/스택
 
 - html, css, javascript
-- vsCode
+- VSCode
 - OpneWeatherMap Api
